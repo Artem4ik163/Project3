@@ -4,10 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BankApi2Application {
-
+public class BankApplication {
     public static void main(String[] args) {
-        SpringApplication.run(BankApi2Application.class, args);
+        SpringApplication.run(BankApplication.class, args);
     }
-
 }
